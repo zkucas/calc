@@ -1,0 +1,38 @@
+.containerMax{
+    border: 3px solid black;
+    border-radius: 2rem;
+    padding:20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+  
+ 
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.display{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:40px;
+    border: 2px solid black;
+
+}
+
+
+
+.btx{
+    flex-basis: 25%;
+    min-height: 50px;
+
+}
