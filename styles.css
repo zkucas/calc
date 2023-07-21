@@ -2,22 +2,23 @@
     border: 3px solid black;
     border-radius: 2rem;
     padding:20px;
-    max-width: 500px;
+    max-width: 400px;
     margin-left: auto;
     margin-right: auto;
-    
+    background-color: cadetblue;
 }
 
 .container{
     display: flex;
     flex-wrap: wrap;
-  
- 
+    padding-top: 10px;
 }
 
 .title{
     display: flex;
     justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
 }
 
 .display{
@@ -26,13 +27,16 @@
     align-items: center;
     height:40px;
     border: 2px solid black;
+    border-radius: 0.5rem;
+    background-color: aliceblue;
+    overflow: hidden;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
 
 }
-
-
 
 .btx{
     flex-basis: 25%;
     min-height: 50px;
-
+    border: 1px solid black;
+    border-radius: 0.5rem;
 }
